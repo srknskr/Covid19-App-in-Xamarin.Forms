@@ -32,12 +32,12 @@
                                 <Grid>
                                     <Label Text="{Binding Country_Region}" TextColor="#ff1e56"  Grid.Row="0" Grid.ColumnSpan="3"  Grid.RowSpan="2" HorizontalTextAlignment="Center" FontSize="20"/>
 
-                                    <Label Text="Confirmed" TextColor="#000000" Grid.Row="1" Grid.Column="0"/>
-                                    <Label Text="{Binding Confirmed}" TextColor="#706c61" Grid.Row="2" Grid.Column="0"/>
-                                    <Label Text="Recovered" TextColor="Black" Grid.Row="1" Grid.Column="1"/>
-                                    <Label Text="{Binding Recovered}" TextColor="#706c61" Grid.Row="2" Grid.Column="1"/>
-                                    <Label Text="Deaths" TextColor="Black" Grid.Row="1" Grid.Column="2"/>
-                                    <Label Text="{Binding Deaths}" TextColor="#706c61" Grid.Row="2" Grid.Column="2"/>
+                                    <Label Text="Confirmed" TextColor="#000000" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding Confirmed}" TextColor="#706c61" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center"/>
+                                    <Label Text="Recovered" TextColor="Black" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding Recovered}" TextColor="#706c61" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center"/>
+                                    <Label Text="Deaths" TextColor="Black" Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding Deaths}" TextColor="#706c61" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Center"/>
                                 </Grid>
                                 
                             </StackLayout>
