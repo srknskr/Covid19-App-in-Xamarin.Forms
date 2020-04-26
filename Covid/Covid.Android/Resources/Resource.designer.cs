@@ -8735,6 +8735,9 @@ namespace Covid.Droid
 			// aapt resource value: 0x7F07007F
 			public const int tooltip_frame_light = 2131165311;
 			
+			// aapt resource value: 0x7F070080
+			public const int virus = 2131165312;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
