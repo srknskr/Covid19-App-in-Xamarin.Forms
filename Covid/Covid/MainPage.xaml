@@ -27,8 +27,6 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            
-
                             <StackLayout>
                                 <Grid>
                                     <Label Text="{Binding Country_Region}" TextColor="#ff1e56"  Grid.Row="0" Grid.ColumnSpan="3"  Grid.RowSpan="2" HorizontalTextAlignment="Center" FontSize="20"/>

@@ -50,11 +50,11 @@ namespace Covid
                 var content = await response.Content.ReadAsStringAsync();
                 var posts = JsonConvert.DeserializeObject<Example>(content);
                 //attributes = new List<Posts>(posts);
-              List<Attributes>  asd = new List<Attributes>();
+              List<Attributes>  data = new List<Attributes>();
               
                 for (int i = 0; i < posts.features.Count; i++)
                 {
-                    asd.Add(new Attributes
+                    data.Add(new Attributes
                     {
                         Country_Region = posts.features[i].attributes.Country_Region,
                         Confirmed = posts.features[i].attributes.Confirmed,
@@ -63,15 +63,13 @@ namespace Covid
 
                     });
                 }
-                attributes = asd;
+                attributes = data;
             }
             else
             {
-                Debug.WriteLine("Veri çekilirken bir hata oluştu!!");
+                Debug.WriteLine("Error when get data!");
             }
             IsLoading = false;
         }
-
-
     }
 }
